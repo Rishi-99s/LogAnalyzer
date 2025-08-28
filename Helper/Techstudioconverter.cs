@@ -22,7 +22,7 @@ namespace FirstProject.Helper
             @"^(?<ts>\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2},\d{3}).*? - Response message Id: (?<id>\d+)",
             RegexOptions.Compiled);
 
-        private static readonly Regex rxNotifyEndpoint = new(@" - Notify to UI for EndPoint - (?<id>[0-9A-F]+) - Mesh", RegexOptions.Compiled);
+       // private static readonly Regex rxNotifyEndpoint = new(@" - Notify to UI for EndPoint - (?<id>[0-9A-F]+) - Mesh", RegexOptions.Compiled);
         private static readonly Regex rxEndpointOk = new(@"Endpoint connection successful, id: .*?\[(?<id>[0-9A-F]+)\]", RegexOptions.Compiled);
 
         private static readonly Regex rxSuccessLocal = new(@"Local radio connected successfully", RegexOptions.IgnoreCase | RegexOptions.Compiled);
