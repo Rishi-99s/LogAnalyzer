@@ -23,5 +23,6 @@
         public string MeterFirmware { get; set; } = string.Empty;
         public string MajorMinorSoftId { get; set; } = string.Empty;
         public double? TotalTimeTakenPerRun { get; set; }
+        public string MajorID { get; set; } = string.Empty;
     }
 }
